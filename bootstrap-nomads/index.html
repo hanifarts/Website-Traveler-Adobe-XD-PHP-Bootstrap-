@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link 
+    rel="stylesheet" 
+    href="frontend/libraries/Bootstrap/css/bootstrap.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&
+    family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;
+    1,500;1,600;1,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="frontend/styles/main.css"/>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <div class="container">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/nomads-logo.png" alt="Logo NOMADS"/>
+            </a>
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ms-auto me-3 ">
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link">Travel Package</a></li>
+                    <li class="nav-item dropdown mx-md-2">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop"
+                        role="button" data-bs-toggle="dropdown" 
+                        >
+                         Service
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="#" class="dropdown-item">VISA</a>
+                        <a href="#" class="dropdown-item">Private Trip</a>
+                        <a href="#" class="dropdown-item">Promo</a>
+                    </div>
+                    </li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link">Testimonial</a></li>
+                    
+                </ul>
+
+                
+                    <!-- Mobile Button -->
+                    <form  class="form-inline d-sm-block d-lg-none">
+                        <button class="btn btn-login  my-2 my-lg-0 "> Masuk  </button>
+                        </form>
+                        
+                        <!-- Dekstop Button -->
+                        <form  class="form-inline my-2 my-lg-0 d-none me-3 d-lg-block ">
+                        <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4"> Masuk  </button>
+                        </form>
+
+            </div>
+    </nav>    
+    </div>
+
+    <!-- Header -->
+    <header class="header text-center">
+
+        <h1> Explorer The Beautiful World
+            <br>
+            As Easy One Click
+        </h1>
+        <p class="mt-4">
+            You will see Beautifull
+            <br>
+            moment you never see before
+        </p>
+        <a href="details.html" class="btn btn-get-started px-4 mt-4">
+            Get Started
+        </a>
+
+
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section-stats row justify-content-center" id="stats">
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>20K</h2>
+                    <p>Members</p>
+                </div>
+
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>12</h2>
+                    <p>Countries</p>
+                </div>
+
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>3K</h2>
+                    <p>Hotels</p>
+                </div>
+
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>71</h2>
+                    <p>Partners</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="section-popular" id="popular">
+            <div class="container">
+                <div class="row col text-center 
+                section-popular-heading">
+                <h2 >Wisata Popular</h2>
+                <p>Something that you never try
+                    <br>
+                    Before in this world
+                </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class=" section-popular-content" id="popularContent">
+            <div class="container">
+                <div class="section-popular-travel row justify-content-center">
+
+                    <!--Item Wisata 1-->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/item.wisata_bali@2x.png');">
+
+                            <div class="travel-country"> INDONESIA</div>
+                            <div class="div travel-location">DERATAN, BALI</div>
+                            <div class="div travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">
+                                    View Details
+                                </a></div>
+                        </div>
+                    </div>
+
+                    <!--Item Wisata 2-->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/item.wisata_bromo@2x.png');">
+
+                            <div class="travel-country"> INDONESIA</div>
+                            <div class="div travel-location">BROMO, MALANG</div>
+                            <div class="div travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">
+                                    View Details
+                                </a></div>
+                        </div>
+                    </div>
+
+                    <!--Item Wisata 3-->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/item.wisata_nusapenida@2x.png');">
+
+                            <div class="travel-country"> INDONESIA</div>
+                            <div class="div travel-location">NUSA PENIDA, BALI</div>
+                            <div class="div travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">
+                                    View Details
+                                </a></div>
+                        </div>
+                    </div>
+
+                    <!--Item Wisata 4-->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/item.wisata_karimun@2x.png');">
+
+                            <div class="travel-country"> INDONESIA</div>
+                            <div class="div travel-location">KARIMUN</div>
+                            <div class="div travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">
+                                    View Details
+                                </a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Bagian Networks-->
+        <section class="section-networks" id="networks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Our Networks</h2>
+                        <p>Companies are trusted us
+                            <br>
+                            more than just a trip
+                        </p>
+                    </div>
+                    <div class="col-md-8 text-center ">
+                        <img src="frontend/images/logo_assets.png" 
+                        alt="Logo Partner" class="img-partner"/>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <!-- Bagian Kolom Testimoni-->
+        <section class="section-testimonial-heading" id="testimonialHeading">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>They're Loving Us</h2>
+                        <p>Moment were giving them 
+                            <br>  <!-- br adalah Blank Row atau Baris Kosong-->
+                             the best experiance</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+ 
+         <section class="section-testimonial-content" id="testimonialContent">
+             <div class="container">
+                 <div class="section-popular-travel row justify-content-center">
+
+                     <div class="col-sm-6 col-md-6 col-lg-4">
+                         <div class="card card-testimonial text-center">
+                         <div class="testimonial-content">
+                            <img src="frontend/images/foto_profile/foto_1@2x.png" alt="User">
+                         <div class="mb-4 rounded-circle ">
+                             <h3 class="mb-4"> Hanif Art Swendho</h3>
+                             <p class="testimonial"> " Pengalaman yang sangat 
+                                menyenangkan dan asik di
+                                setiap momentnya.
+                                Terimakasihhh… "
+                            </p>
+                         </div>
+                         <hr>
+                         <p class="trip-to mt-2"> Trip to Ubud, Bali. Indonesia</p>
+                        </div>
+
+                         </div>
+                     </div>
+
+                     <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                        <div class="testimonial-content">
+                           <img src="frontend/images/foto_profile/foto_2@2x.png" alt="User">
+                        <div class="mb-4 rounded-circle ">
+                            <h3 class="mb-4"> Inka Bunga Pertiwi</h3>
+                            <p class="testimonial"> " Jalan-jalan menjadi lebih
+                                mudah, use friendly.
+                                Thankyou :) "
+                           </p>
+                        </div>
+                        <hr>
+                        <p class="trip-to mt-2"> Trip to Bromo, Malang. Indonesia</p>
+                       </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                        <div class="testimonial-content">
+                           <img src="frontend/images/foto_profile/foto_3@2x.png" alt="User">
+                        <div class="mb-4 rounded-circle ">
+                            <h3 class="mb-4"> Aditya Prayoga</h3>
+                            <p class="testimonial"> " Seruu, terimakasih Nomads,
+                                memudahkan pengguna 
+                                dalam mencari destinasi
+                                wisata yang jarang ditemui "
+                           </p>
+                        </div>
+                        <hr>
+                        <p class="trip-to mt-2"> Trip to Deratan, Bali</p>
+                       </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row"> 
+                        <div class="col-12 text-center">
+                            <a href="https://support.google.com/?hl=en" class="btn btn-need-help px-4 mt-4 mx-1">I Need Help</a>
+                            <a href="details.html" class="btn btn-get-started px-4 mt-4 mx-1">Get Started</a>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         </section>           
+            
+
+
+    </main>
+
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <div class="ul list-unstyled">
+                                <li><a href="#">Review</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <div class="ul list-unstyled">
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Awards</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <div class="ul list-unstyled">
+                                <li><a href="#">Carrier</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">About Us</a></li>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <div class="ul list-unstyled">
+                                <li><a href="#">Jakarta Timur, 13620</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="https://wa.me/085899439908">(+62) 858 - 9943 - 9908</a></li>
+                                <li><a href="https://mail.google.com/mail/u/?authuser=hanifartswendho@gmail.com">hanifartswendho@gmail.com</a></li>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto test-gray-500 font-weight-light justify-content-center">
+                    2019  - Copyright Nomads  -  All rights reserved  -  Made In Indonesia
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frontend/libraries/Bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+</body>
+</html>
